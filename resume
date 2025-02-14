@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .header .formal-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .header .formal-picture img {
+            width: 100%;
+            height: auto;
+        }
+        .info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .info .left, .info .right {
+            width: 48%;
+        }
+        .info .right {
+            text-align: right;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            margin-bottom: 10px;
+            font-size: 22px;
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .section p {
+            line-height: 1.6;
+        }
+        .footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .footer img {
+            width: 200px; /* Set the width to a larger size */
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="formal-picture">
+                <img src="karl.jpg" alt="Formal Picture">
+            </div>
+        </div>
+        <div class="info">
+            <div class="left">
+                <h1>About Me</h1>
+                <p>I'm Karl Patrick E. Elcano! When I'm not busy with the hustle and bustle of life, you'll often find me indulging in my favorite activities: cycling, catching some well-deserved rest, and savoring delicious food. These hobbies keep me balanced and energized as I navigate my journey towards success.
+                My ultimate goal in life is to achieve success in my endeavors and experience the wonders of the world through travel. I'm driven by the desire to explore new places, meet diverse people, and immerse myself in different cultures.
+                As I pedal through life, I remain committed to my aspirations and look forward to the adventures that lie ahead.</p>
+                <h1>Achievements</h1>
+                <p>- National Certificate Level II In Computer Hardware And Servicing January 17, 2025 TESDA, Psig City</p>
+                <p>- Overall Honor Award in Sta. Lucia High School
+                Grade 11 - With Honors</p>
+                <h1>Experience</h1>
+                <p>N/A</p>
+                <h1>References</h1>
+                <p>N/A</p>
+            </div>
+            <div class="right">
+                <h1>Name: Karl Patrick E. Elcano</h1>
+                <p>Birth Date: 11/25/2006</p>
+                <p>Place of Birth: Pasig City</p>
+                <p>Address: 4125 Sto Nino St. SPS Subdivision Pasig City</p>
+            </div>
+        </div>
+        <div class="footer">
+            <img src="CS DK.jpg" alt="Logo">
+            <img src="tarpulin.jpg" alt="Tarpulin">
+            <img src="layout.png" alt="Layout">
+        </div>
+    </div>
+</body>
+</html>
